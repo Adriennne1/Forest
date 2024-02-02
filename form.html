@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300;700&display=swap"
+        rel="stylesheet">
+   
+    <link rel="stylesheet" href="dist/css/style.min.css">
+    <script src="https://kit.fontawesome.com/486e77c9bb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <nav>
+    <div class="navigation-box ">
+        <i class="fa-solid fa-bars"></i>
+        <a href="index.html">
+            <p class="logo"><i class="fa-solid fa-tree"></i> Forest</p>
+        </a>
+        <div class="mobile">
+            <i class="mobile-bar fa-solid fa-xmark"></i>
+            <a class="navigation nav__item" href="index.html">Home</a>
+            <a class="navigation nav__item" href="index.html#aboutus">O nas</a>
+            <a class="navigation nav__item" href="index.html#offer">Oferta</a>
+            <a class="navigation nav__item" href="form.html">Kontakt</a>
+        </div>
+    </div>
+    <div class="main-logo">
+        <a href="index.html">
+            <p class="logo"><i class="fa-solid fa-tree"></i> Forest</p>
+        </a>
+    </div>
+    <a class="navigation" href="index.html">Home</a>
+    <a class="navigation" href="index.html#aboutus" >O nas</a>
+    <a class="navigation" href="index.html#offer">Oferta</a>
+    <a class="navigation" href="form.html">Kontakt</a>
+
+
+</nav>
+
+    <header class="header section" id="home">
+        <div class="header__shadow-box"></div>
+        <div class="header__bg"></div>
+        <div class="header__img"></div>
+        <div class="header__text">
+            <h1>Forest Group</h1>
+            <p>Najpiękniejszy park w Twojej okolicy!</p>
+        </div>
+        </div>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="form-section">
+            <h2 class="contact-heading">Formularz kontaktowy</h2>
+            <p class="form__subtitle">Masz pytanie? Zapraszamy do kontaktu!</p>
+
+            <form class="form" id="contactForm" method="post" action="./send-script.php">
+                <div class="form-row">
+                    <label for="name" class="form-label">Imię:</label>
+                    <input class="form-control" type="text" name="name" required id="name" placeholder="Podaj swoje imię...">
+                </div>
+                <div class="form-row">
+                    <label for="email" class="form-label">Email:</label>
+                    <input class="form-control" type="email" name="email" required id="email" placeholder="Podaj swój adres e-mail...">
+                </div>
+                <div class="form-row">
+                    <label for="message" class="form-label">Wiadomość:</label>
+                    <textarea class="form-control" name="message" required id="message" placeholder="Podaj treść wiadomości..."></textarea>
+                </div>
+                <div class="form-message"></div>
+                <div class="rodo"><input type="checkbox"> Wyrażam zgodę na przetwarzanie moich danych osobowych podanych w powyższym formularzu w celu zbierania danych przez Forest Group oraz przez podmioty trzecie.</div><div class="form-row">
+                    <button type="submit" class="button form-submit">
+                        Wyślij
+                    </button>
+                </div>
+                
+            </form>
+
+            <section class="contact">
+                <h2 class="contact-heading">Dane firmy</h2>
+                <p class="contact__text">
+                    <ul class="contact-ul">
+                        <li class="contact-li">Forest Group</li>
+                        <li class="contact-li"><i class="fa-solid fa-location-dot"></i> ul. Jeleniogórska 2, 00-000 Kraków</li>
+                        <li class="contact-li"><i class="fa-solid fa-phone"></i> 000-000-000</li>
+                        <li class="contact-li"><i class="fa-solid fa-envelope"></i> mail@mail.com</li>
+                    </ul>
+                </p>
+
+            </section>
+
+            <section class="location-box">
+                <h2 class="contact-heading">Nasza lokalizacja</h2>
+                <div class="maps">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8978424941183!2d19.892849199999997!3d50.088199499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a2d7f0d587f%3A0x15f4e7c36adff6d2!2sJasnog%C3%B3rska%202%2C%2031-358%20Krak%C3%B3w!5e0!3m2!1spl!2spl!4v1706638513295!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </section>
+
+    </main>
+
+    <footer>
+    <p class="footer-logo"><i class="fa-solid fa-tree"></i> Forest</p>
+    <div class="wrapper">
+        <div class="footer__box">
+            <h3 class="footer__box-title">O nas</h3>
+            <ul class="footer__list">
+                <li class="footer__text"><a href="#aboutus">Historia</a></li>
+                <li class="footer__text"><a href="#aboutus">Parki</a></li>
+                <li class="footer__text"><a href="#aboutus">Opinie</a></li>
+            </ul>
+        </div>
+        <div class="footer__box">
+            <h3 class="footer__box-title">Nasza firma</h3>
+            <ul class="footer__list">
+                <li class="footer__text"><a href="#ourbrand">Praca</a></li>
+                <li class="footer__text"><a href="#ourbrand">Kadry</a></li>
+                <li class="footer__text"><a href="#ourbrand">Zarząd</a></li>
+            </ul>
+        </div>
+        <div class="footer__box">
+            <h3 class="footer__box-title">Dokumenty</h3>
+            <ul class="footer__list">
+                <li class="footer__text"><a href="#docs">Wnioski</a></li>
+                <li class="footer__text"><a href="#docs">Rezerwacje</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+    <p class="footer__bottom-text"> &copy; <span class="footer__year"></span> Forest Group Company Ltd. </p>
+
+</footer>
+
+    <script src="dist/js/main.min.js"></script>
+
+</body>
+
+</html>
